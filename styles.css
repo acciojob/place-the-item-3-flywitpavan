@@ -1,2 +1,10 @@
 
 /* Your CSS Code here. */
+.holder {
+  display: flex;
+  flex-wrap: wrap;      /* Allows items to wrap to the next row if they don't fit */
+  justify-content: space-between;  /* Ensures even spacing between items */
+  gap: 10px;            /* Optional: adds a gap between items */
+  width: 100%;          /* Ensures holder takes the full width of the container */
+  box-sizing: border-box;/* Prevents padding/border from affecting width */
+}
